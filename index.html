@@ -1,199 +1,219 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Wave Core - Compre no atacado direto da fábrica com nosso CATÁLOGO VIRTUAL!</title>
-  <style>
-    /* CSS to style the columns */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Ubuntu', sans-serif;
-    }
-
-    a{
-      text-decoration: none;
-    }
-
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-
-    .colum1 {
-      flex: 1;
-      padding-left: 50px;
-    }
-
-    .colum2 {
-      flex: 1;
-    }
-
-    .logo {
-      max-width: 80%;
-      margin-bottom: 20px;
-    }
-
-    .banner {
-      width: 80%;
-      position: relative;
-    }
-
-    .slider {
-      width: auto;
-      height: 100vh;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .slide {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: auto;
-      height: 100%;
-      opacity: 0;
-      transition: opacity 2s ease-in-out;
-    }
-
-    .slide.active {
-      opacity: 1;
-    }
-
-    @keyframes slide {
-      0% {
-        opacity: 0;
+  <head>
+    <title>
+      Wave Core - Compre no atacado direto da fábrica com nosso CATÁLOGO
+      VIRTUAL!
+    </title>
+    <style>
+      /* CSS to style the columns */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Ubuntu", sans-serif;
       }
-      20% {
-        opacity: 1;
+
+      a {
+        text-decoration: none;
       }
-      33% {
-        opacity: 1;
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
       }
-      53% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
 
-    H2{
-      color: #ff6600;
-      font-weight: 700;
-      font-size: 28px;
-    }
-
-    H3{
-      color: black;
-      font-weight: 400;
-      font-size: 14px;
-    }
-
-    .botao{
-      color: #ff6600;
-      font-weight: 700;
-      width: 300px;
-      background-color: #EEE;
-      border-radius: 5px;
-      padding: 10px;
-      text-align: center;
-    }
-
-    .botao:hover{
-      color: white;
-      background-color: #ff6600;
-      cursor: pointer;
-    }
-
-    @media (max-width: 768px) {
-
-      .colum1{
-        padding-left: 0px;
-        text-align: center;
-        box-align: center;
+      .colum1 {
         flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        padding-left: 50px;
       }
 
       .colum2 {
-        display: none;
+        flex: 1;
       }
 
-      .logo{
-      width: 70%;
-    }
-
-      .lista{
-        text-align: left;
-        margin-left: -26px;
-        margin-top: -20px;
+      .logo {
+        max-width: 80%;
+        margin-bottom: 20px;
       }
 
-    }
+      .banner {
+        width: 80%;
+        position: relative;
+      }
 
+      .slider {
+        width: auto;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+      }
 
-  </style>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-  <div class="container">
-    <div class="colum1">
-      <img class="logo" src="logo.png" alt="Logo">
-      <h2>Novo Catálogo Virtual!</h2>
-      <h3>
-        <ul class="lista">
-          <li>Compre direto das lojas Wave Core</li>
-          <li>Economize comprando no atacado</li>
-          <li>Os melhores lançamentos saem aqui</li>
-          <li>Pague no cartão com total segurança</li>
-        </ul>
-      </h3>
-      <br>
-      <a href="https://wavecore1.modacentersantacruz.com.br/" target="_blank"><div class="botao">Catálogo Virtual Loja Caruaru - PE</div></a><br>
-      <a href="https://wavecoremaringa.modacentersantacruz.com.br/" target="_blank"><div class="botao">Catálogo Virtual Loja Maringá - PR</div></a>
-      <br><br>
-      <a href="https://www.instagram.com/wavecoreoficial/">
-        <i class="fa fa-instagram icon" style="font-size:30px; color: #ff6600; cursor: pointer; margin-bottom: 15px;" onmouseover="style.color='black'" onmouseout="style.color='#ff6600'"></i>
-      </a>
-      &nbsp; &nbsp; Fone: 81 98921-0690
-    </div>
-    <div class="colum2">
-      <div class="banner">
-        <div class="slider">
-          <img class="slide active" src="image1.jpg" alt="Image 1">
-          <img class="slide" src="image2.jpg" alt="Image 2">
-          <img class="slide" src="image3.jpg" alt="Image 3">
+      .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+      }
+
+      .slide.active {
+        opacity: 1;
+      }
+
+      @keyframes slide {
+        0% {
+          opacity: 0;
+        }
+        20% {
+          opacity: 1;
+        }
+        33% {
+          opacity: 1;
+        }
+        53% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      H2 {
+        color: #ff6600;
+        font-weight: 700;
+        font-size: 28px;
+      }
+
+      H3 {
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      .botao {
+        color: #ff6600;
+        font-weight: 700;
+        width: 300px;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .botao:hover {
+        color: white;
+        background-color: #ff6600;
+        cursor: pointer;
+      }
+
+      @media (max-width: 768px) {
+        .colum1 {
+          padding-left: 0px;
+          text-align: center;
+          box-align: center;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .colum2 {
+          display: none;
+        }
+
+        .logo {
+          width: 70%;
+        }
+
+        .lista {
+          text-align: left;
+          margin-left: -26px;
+          margin-top: -20px;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="colum1">
+        <img class="logo" src="logo.png" alt="Logo" />
+        <h3>
+          <ul class="lista">
+            <li>Compre direto das lojas Wave Core</li>
+            <li>Economize comprando no atacado</li>
+            <li>Os melhores lançamentos saem aqui</li>
+            <li>Pague no cartão com total segurança</li>
+          </ul>
+        </h3>
+        <br />
+        <a href="https://wavecore1.modacentersantacruz.com.br/" target="_blank"
+          ><div class="botao">Catálogo Virtual</div></a
+        ><br />
+        <a
+          href="https://wavecoremaringa.modacentersantacruz.com.br/"
+          target="_blank"
+          ><div class="botao">Catálogo Vitrual Maringá - PR</div></a
+        >
+        <br /><br />
+        <a href="https://www.instagram.com/wavecoreoficial/">
+          <i
+            class="fa fa-instagram icon"
+            style="
+              font-size: 30px;
+              color: #ff6600;
+              cursor: pointer;
+              margin-bottom: 15px;
+            "
+            onmouseover="style.color='black'"
+            onmouseout="style.color='#ff6600'"
+          ></i>
+        </a>
+        &nbsp; &nbsp; Fone: 81 98921-0690
+      </div>
+      <div class="colum2">
+        <div class="banner">
+          <div class="slider">
+            <img class="slide active" src="image1.jpg" alt="Image 1" />
+            <img class="slide" src="image2.jpg" alt="Image 2" />
+            <img class="slide" src="image3.jpg" alt="Image 3" />
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script>
-    // JavaScript to handle the slide animation
-    const slides = document.querySelectorAll('.slide');
-    let currentSlide = 0;
+    <script>
+      // JavaScript to handle the slide animation
+      const slides = document.querySelectorAll(".slide");
+      let currentSlide = 0;
 
-    function showSlide(slideIndex) {
-      slides.forEach((slide, index) => {
-        if (index === slideIndex) {
-          slide.classList.add('active');
-        } else {
-          slide.classList.remove('active');
-        }
-      });
-    }
+      function showSlide(slideIndex) {
+        slides.forEach((slide, index) => {
+          if (index === slideIndex) {
+            slide.classList.add("active");
+          } else {
+            slide.classList.remove("active");
+          }
+        });
+      }
 
-    function nextSlide() {
-      currentSlide = (currentSlide + 1) % slides.length;
-      showSlide(currentSlide);
-    }
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+      }
 
-    setInterval(nextSlide, 5000);
-  </script>
-</body>
+      setInterval(nextSlide, 5000);
+    </script>
+  </body>
 </html>
